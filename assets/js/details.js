@@ -54,7 +54,7 @@ function displayPokemonDetails(pokemon) {
     const html = `
         <div class="pokemon-detail-card">
             <div class="header">
-                <a href="/" class="back-button">←</a>
+                <a href="index.html" class="back-button">←</a>
             </div>
             <div class="name-section">
                 <span class="name">${pokemon.name}</span>
