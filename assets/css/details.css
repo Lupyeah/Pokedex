@@ -1,7 +1,7 @@
 .pokemon-detail-card {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: white;
     padding: 1.25rem;
@@ -116,11 +116,14 @@ tr.breeding td {
     }
 
     section {
+        display: flex;
         margin-inline: 15rem;
-        border-radius: 0.75rem;
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
         margin-top: 1rem;
         border: #000 0.1rem solid;
         box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.664);
+        min-height: calc(100vh - 2rem);
     }
 
     .pokemon-detail-card .name {
