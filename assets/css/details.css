@@ -1,0 +1,143 @@
+.pokemon-detail-card {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 1.25rem;
+}
+
+.pokemon-detail-card .header .back-button {
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: color 0.25s ease;
+}
+
+.pokemon-detail-card .header .back-button:hover {
+    color: rgb(255, 0, 0);
+}
+
+.pokemon-detail-card .name {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pokemon-detail-card .number {
+    display: flex;
+    margin-top: -1.7rem;
+    justify-self: end;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.pokemon-detail-card .types {
+    display: flex;
+    padding: 0;
+    margin: 0.25rem 0;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.pokemon-detail-card .types .type {
+    color: #fff;
+    padding: .25rem .75rem;
+    margin: .25rem 0;
+    font-size: .8rem;
+    border-radius: 0.75rem;
+    filter: brightness(1.1);
+    text-align: center;
+    border: #00000044 0.1rem solid;
+    text-transform: capitalize;
+    transition: filter 0.25s ease;
+}
+
+.pokemon-detail-card .types .type:hover {
+    filter: brightness(1.2);
+}
+
+.pokemon-detail-card .pokemon-image {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.pokemon-detail-card .pokemon-image img {
+    max-width: 60%;
+}
+
+.pokemon-detail-card .info {
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-top: -2rem;
+    padding: 1rem 1.5rem 1.5rem;
+    color: #000000;
+    flex-grow: 1;
+    border-top: rgb(0, 0, 0) 0.5rem solid;
+}
+
+.info h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: #000000 0.1rem solid;
+}
+
+.info table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    text-transform: capitalize;
+}
+
+.info table td:first-child {
+    font-weight: bold;
+    width: 40%;
+    color: rgb(85, 85, 85);
+}
+
+tr.breeding td {
+    display: flex;
+    color: #000000 !important;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.info table td {
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        width: 100%;
+    }
+
+    section {
+        margin-inline: 15rem;
+        border-radius: 0.75rem;
+        margin-top: 1rem;
+        border: #000 0.1rem solid;
+        box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.664);
+    }
+
+    .pokemon-detail-card .name {
+        font-size: 3rem;
+    }
+
+    .pokemon-detail-card .number {
+        font-size: 1.75rem;
+        margin-top: -2.5rem;
+    }
+
+    .pokemon-detail-card .types .type {
+        font-size: 0.90rem;
+    }
+
+    .info {
+        width: 75%;
+        margin-inline: 10rem;
+    }
+}
