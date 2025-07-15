@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Pokédex" src="./assets/images/preview.gif" width="100%">
+  <img alt="Pokédex" src="./assets/images/Preview.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
