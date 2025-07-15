@@ -1,0 +1,26 @@
+<h1 align="center"> Desafio da DIO - Pokédex </h1>
+
+<br>
+
+<p align="center">
+  <img alt="Pokédex" src="./assets/images/preview.gif" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML, CSS e JavaScript
+- Git e Github
+
+## 💻 Projeto
+
+Uma pokédex!
+
+- [Para ver no site]
+
+## 📋 Funcionalidades
+
+- 📌 Pokédex!
+- ❗ Informações principais dos pokémons!
+---
