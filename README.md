@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma pokédex!
 
-- [Para ver no site]
+- [Para ver no site](https://lupyeah.github.io/Pokedex/index.html)
 
 ## 📋 Funcionalidades
 
